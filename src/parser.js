@@ -149,7 +149,8 @@ function parser(msg, rinfo) {
 		family: rinfo.family,
 		port: rinfo.port,
 		size: rinfo.size,
-		msg: msg.substr(tagIndex + 2)
+		msg: msg.substr(tagIndex + 2),
+		raw_msg: msg
 	} ;
 }
 

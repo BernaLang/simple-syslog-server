@@ -50,7 +50,8 @@ server.on('msg', data => {
 	  "family": "IPv6",
 	  "port": 20514,
 	  "size": 80,
-	  "msg": "Started Daily apt download activities."
+		"msg": "Started Daily apt download activities.",
+		"raw_msg": "<PRI>timestamp hostname tag: info"
 	}	
 	*/
 })
